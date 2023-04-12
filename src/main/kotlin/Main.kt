@@ -2,6 +2,9 @@ fun main() {
     var x=modulus(55,30)
     println(x)
     passwords()
+    passwords()
+    user()
+    user()
 
 }
 //Create and invoke a function that given 2 numbers returns the remainder of their
@@ -23,3 +26,18 @@ fun passwords() {
         println("Access denied")
     }
 }
+//Write a program in Kotlin that asks the user to enter a number and
+//prints whether it is even or odd.
+fun user(){
+    print("Enter your number:")
+    var numbers= readlnOrNull()?.toInt() ?:0
+//    for (num in numbers){
+        if (numbers %2==0){
+            println("even")
+        }
+        else{
+            println("odd")
+        }
+    }
+
+
