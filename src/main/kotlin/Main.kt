@@ -6,6 +6,7 @@ fun main() {
     user()
     user()
     numbers()
+    oddNumber()
 
 }
 //Create and invoke a function that given 2 numbers returns the remainder of their
@@ -61,6 +62,14 @@ fun numbers(){
         println(i)
         }
 
+}
+//Create a function that prints out all the odd numbers between 1 and 100
+fun oddNumber(){
+    for(i in 1..100){
+        if (i%2 !=0){
+            println(i)
+        }
+    }
 }
 
 
